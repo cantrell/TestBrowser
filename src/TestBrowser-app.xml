@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/1.5">
+	<id>TestBrowser</id>
+	<filename>TestBrowser</filename>
+	<name>TestBrowser</name>
+	<version>v1</version>
+	<description>A simple app for testing the HTMLLoader. Created by Christian Cantrell.</description>
+	<copyright>Copyright © 2007 Adobe Systems Incorporated. All rights reserved.</copyright>
+
+	<initialWindow>
+		<content>[This value will be overwritten by Flex Builder in the output app.xml]</content>
+		<!-- <title>TestBrowser</title> -->
+		<systemChrome>standard</systemChrome>
+		<transparent>false</transparent>
+		<visible>true</visible>
+		<!--<minimizable></minimizable>-->
+		<!--<maximizable></maximizable>-->
+		<!--<resizable></resizable>-->
+		<width>1000</width>
+		<height>800</height>
+		<!-- <x></x> -->
+		<!-- <y></y> -->
+		<!-- <minSize></minSize> -->
+		<!-- <maxSize></maxSize> -->
+	</initialWindow>
+
+	<!-- <installFolder></installFolder> -->
+	<!-- <programMenuFolder></programMenuFolder> -->
+
+	<!-- The icon the system uses for the application. For at least one resolution,
+		 specify the path to a PNG file included in the AIR package. Optional. -->
+	<!--
+	<icon>
+		<image128x128>icons/AIRApp_128.png</image128x128>
+	</icon>
+	-->
+
+	<!-- <customUpdateUI></customUpdateUI> -->
+	<!-- <allowBrowserInvocation></allowBrowserInvocation> -->
+
+	<!-- <fileTypes> -->
+		<!-- <fileType> -->
+			<!-- <name></name> -->
+			<!-- <extension></extension> -->
+			<!-- <description></description> -->
+			<!-- <contentType></contentType> -->
+			<!-- <icon>
+				<image16x16></image16x16>
+				<image32x32></image32x32>
+				<image48x48></image48x48>
+				<image128x128></image128x128>
+			</icon> -->
+		<!-- </fileType> -->
+	<!-- </fileTypes> -->
+
+</application>

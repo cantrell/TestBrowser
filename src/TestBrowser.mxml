@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" width="800" height="600" xmlns:views="com.adobe.testbrowser.views.*" creationComplete="onCreationComplete();">
+	<mx:Script>
+		<![CDATA[
+			private function onCreationComplete():void
+			{
+				browser.addEventListener(Event.LOCATION_CHANGE,
+					function(e:Event):void
+					{
+						status = "Loading " + browser.locationBar.text;
+					});
+				browser.addEventListener(Event.COMPLETE,
+					function(e:Event):void
+					{
+						status = "Done";
+					});
+			}
+		]]>
+	</mx:Script>
+	<views:Browser id="browser" width="100%" height="100%"/>
+</mx:WindowedApplication>
