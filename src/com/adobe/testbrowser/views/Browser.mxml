@@ -2,14 +2,16 @@
 <mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" creationComplete="onCreationComplete();">
 	<mx:Script>
 		<![CDATA[
-
 			import com.adobe.testbrowser.CustomHost;
+			
+			import flash.net.URLRequestDefaults;
 
 			private function onCreationComplete():void
 			{
 				var host:CustomHost = new CustomHost();
 				this.html.htmlHost = host;
 				this.html.addEventListener(Event.LOCATION_CHANGE, onLocationChange);
+				URLRequestDefaults.userAgent = "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; nl-nl) AppleWebKit/532.3+ (KHTML, like Gecko) Version/4.0.3 Safari/531.9";
 			}
 
 			private function onLocationChange(e:Event):void
