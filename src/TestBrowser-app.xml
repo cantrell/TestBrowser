@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<application xmlns="http://ns.adobe.com/air/application/2.0">
+<application xmlns="http://ns.adobe.com/air/application/2.6">
 	<id>TestBrowser</id>
 	<filename>TestBrowser</filename>
 	<name>TestBrowser</name>
-	<version>v1</version>
+	<version>1.0</version>
+	<versionNumber>1.0</versionNumber>
 	<description>A simple app for testing the HTMLLoader. Created by Christian Cantrell.</description>
 	<copyright>Copyright © 2007 Adobe Systems Incorporated. All rights reserved.</copyright>
 
